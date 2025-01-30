@@ -92,7 +92,8 @@ Wordpress dispose d'une image Docker officielle disponible sur [DockerHub](https
         - `WORDPRESS_DB_NAME=wordpress`
         - `WORDPRESS_DB_HOST=0.0.0.0`
    3. Construire l'image docker.
-   4. Lancer une instance de l'image, ouvrez un shell. Vérifier le résultat de la commande `echo $WORDPRESS_DB_PASSWORD`
+   4. Lancer une instance de l'image, ouvrez un shell. Vérifier le résultat de la commande `echo $WORDPRESS_DB_PASSWORD`---root@817aa1e5aac7:/var/www/html# echo $WORDPRESS_DB_PASSWORD
+ilovedevops
 
 6. Pipeline d'Intégration Continue (CI):
    1. Créer un dépôt de type `DOCKER` sur artifact registry (si pas déjà fait, sinon utiliser celui appelé `website-tools`)
