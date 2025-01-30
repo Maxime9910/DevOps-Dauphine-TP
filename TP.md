@@ -61,8 +61,13 @@ Wordpress dispose d'une image Docker officielle disponible sur [DockerHub](https
 1. Récupérer l'image sur votre machine (Cloud Shell)
 
 2. Lancer l'image docker et ouvrez un shell à l'intérieur de votre container:
-   1. Quel est le répertoire courant du container (WORKDIR) ?
+   1. Quel est le répertoire courant du container (WORKDIR) ? /var/www/html
    2. Quelles sont les différents fichiers html contenu dans WORKDIR ?
+      /var/www/html/index.php             /var/www/html/wp-config-sample.php  /var/www/html/wp-mail.php
+/var/www/html/wp-activate.php       /var/www/html/wp-cron.php           /var/www/html/wp-settings.php
+/var/www/html/wp-blog-header.php    /var/www/html/wp-links-opml.php     /var/www/html/wp-signup.php
+/var/www/html/wp-comments-post.php  /var/www/html/wp-load.php           /var/www/html/wp-trackback.php
+/var/www/html/wp-config-docker.php  /var/www/html/wp-login.php          /var/www/html/xmlrpc.php
 
 3. Supprimez le container puis relancez en un en spécifiant un port binding (une correspondance de port).
 
