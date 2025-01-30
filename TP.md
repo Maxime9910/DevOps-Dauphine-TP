@@ -162,6 +162,8 @@ Notre but, ne l'oublions pas est de déployer wordpress sur Cloud Run puis Kuber
    1. Aller sur : https://console.cloud.google.com/run/detail/us-central1/serveur-wordpress/metrics?
    2. Cliquer sur l'URL de votre Cloud Run : similaire à https://serveur-wordpress-oreldffftq-uc.a.run.app
    3. Que voyez vous ? 🙈
+![image](https://github.com/user-attachments/assets/4daa535b-c0ca-40ca-becc-ab0e502baa3f)
+
 
 
 6. Afin d'avoir un déploiement plus robuste pour l'entreprise et économiser les coûts du service CloudSQL, nous allons déployer Wordpress sur Kubernetes
