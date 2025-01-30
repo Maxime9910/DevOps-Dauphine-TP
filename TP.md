@@ -100,7 +100,7 @@ ilovedevops
    2. Créer une configuration cloudbuild pour construire l'image docker et la publier sur le depôt Artifact Registry
    3. Envoyer (`submit`) le job sur Cloud Build et vérifier que l'image a bien été créée
 
-   ![image](https://github.com/user-attachments/assets/546aa358-7c51-44e7-91f7-2e6018dee848)
+   ![image](https://github.com/user-attachments/assets/5f2bd4c0-05df-4a6c-8ab1-56f821739cc9)
 
 
 ## Partie 3 : Déployer Wordpress sur Cloud Run puis Kubernetes 🔥
